@@ -1,0 +1,98 @@
+* {
+  /* add correct font family here */
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* update your color */
+  color: black;
+}
+
+.body {
+  margin: 0px auto;
+}
+
+.navbar {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* update your color */
+  background-color: bisque;
+}
+
+.link-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin-right: 0;
+}
+
+.navbar-link {
+  margin-left: 10px;
+}
+
+/* :last-of-type - selects the last element in same type (here it selects last element of our list) */
+.navbar-link:last-of-type {
+  margin-right: 10px;
+}
+
+.introduction {
+  padding: 100px;
+  /* update color */
+  background-color: bisque;
+}
+
+.name {
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.job {
+  text-align: center;
+  font-size: 48px;
+}
+
+.personal-details {
+  font-weight: 600;
+}
+
+.description {
+  padding: 50px 20px 100px;
+  align-items: center;
+  width: 60%;
+}
+
+.discover {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.projects {
+  width: 80%;
+  padding-bottom: 100px;
+}
+
+.personal-projects {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.project-item_1 {
+  padding: 20px;
+}
+
+.project-item_2 {
+  padding: 20px;
+}
+
+.project-item_3 {
+  padding: 20px;
+}
